@@ -1,0 +1,346 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3753" height="3753" viewBox="0 0 3753 3753">
+  <defs>
+    <filter id="project_title" x="1766" y="1849" width="220" height="177" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="project_title-2" x="1953" y="1720" width="293" height="177" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur-2"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="project_title-3" x="1458" y="1720" width="390" height="177" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur-3"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="project_title-4" x="1673" y="2106" width="405" height="177" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur-4"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="project_title-5" x="2247" y="1824" width="288" height="177" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur-5"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="project_title-6" x="2105" y="1466" width="238" height="177" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur-6"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="project_title-7" x="1936" y="1382" width="295" height="177" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur-7"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="project_title-8" x="2271" y="1982" width="200" height="177" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur-8"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="project_title-9" x="2168" y="2130" width="280" height="177" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur-9"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur-9"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="project_title-10" x="1371" y="1452" width="360" height="177" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur-10"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur-10"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="project_title-11" x="971" y="2175" width="405" height="177" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur-11"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur-11"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="project_title-12" x="2351" y="2298" width="317" height="177" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur-12"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur-12"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="project_title-13" x="1757" y="2372" width="289" height="154" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur-13"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur-13"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="project_title-14" x="1796" y="1093" width="289" height="154" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur-14"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur-14"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="miniature" transform="translate(-4223 1094)">
+    <g id="placeholders">
+      <rect id="background" width="3753" height="3753" transform="translate(4223 -1094)" fill="#041a25"/>
+      <g id="placeholder" transform="translate(5128 368)" fill="#46484c" stroke="#6f7278" stroke-width="6" opacity="0.6">
+        <circle cx="36" cy="36" r="36" stroke="none"/>
+        <circle cx="36" cy="36" r="33" fill="none"/>
+      </g>
+      <g id="placeholder-2" data-name="placeholder" transform="translate(4946 1455)" fill="#46484c" stroke="#6f7278" stroke-width="6" opacity="0.4">
+        <circle cx="36" cy="36" r="36" stroke="none"/>
+        <circle cx="36" cy="36" r="33" fill="none"/>
+      </g>
+      <g id="placeholder-3" data-name="placeholder" transform="translate(5549 1698)" fill="#46484c" stroke="#6f7278" stroke-width="6" opacity="0.6">
+        <circle cx="36" cy="36" r="36" stroke="none"/>
+        <circle cx="36" cy="36" r="33" fill="none"/>
+      </g>
+      <g id="placeholder-4" data-name="placeholder" transform="translate(6761 1882)" fill="#46484c" stroke="#6f7278" stroke-width="6" opacity="0.4">
+        <circle cx="36" cy="36" r="36" stroke="none"/>
+        <circle cx="36" cy="36" r="33" fill="none"/>
+      </g>
+      <g id="placeholder-5" data-name="placeholder" transform="translate(7197 1752)" fill="#46484c" stroke="#6f7278" stroke-width="6" opacity="0.2">
+        <circle cx="83" cy="83" r="83" stroke="none"/>
+        <circle cx="83" cy="83" r="80" fill="none"/>
+      </g>
+      <g id="placeholder-6" data-name="placeholder" transform="translate(5212 230)" fill="#46484c" stroke="#6f7278" stroke-width="6" opacity="0.6">
+        <circle cx="36" cy="36" r="36" stroke="none"/>
+        <circle cx="36" cy="36" r="33" fill="none"/>
+      </g>
+      <g id="placeholder-7" data-name="placeholder" transform="translate(6564 -98)" fill="#46484c" stroke="#6f7278" stroke-width="6" opacity="0.6">
+        <circle cx="50.5" cy="50.5" r="50.5" stroke="none"/>
+        <circle cx="50.5" cy="50.5" r="47.5" fill="none"/>
+      </g>
+      <g id="placeholder-8" data-name="placeholder" transform="translate(6594 39)" fill="#46484c" stroke="#6f7278" stroke-width="6" opacity="0.6">
+        <circle cx="21" cy="21" r="21" stroke="none"/>
+        <circle cx="21" cy="21" r="18" fill="none"/>
+      </g>
+      <g id="placeholder-9" data-name="placeholder" transform="translate(6594 -176)" fill="#46484c" stroke="#6f7278" stroke-width="6" opacity="0.6">
+        <circle cx="21" cy="21" r="21" stroke="none"/>
+        <circle cx="21" cy="21" r="18" fill="none"/>
+      </g>
+      <g id="placeholder-10" data-name="placeholder" transform="translate(5347 -260)" fill="#46484c" stroke="#6f7278" stroke-width="6" opacity="0.4">
+        <circle cx="36" cy="36" r="36" stroke="none"/>
+        <circle cx="36" cy="36" r="33" fill="none"/>
+      </g>
+      <g id="placeholder-11" data-name="placeholder" transform="translate(5480 -343)" fill="#46484c" stroke="#6f7278" stroke-width="6" opacity="0.4">
+        <circle cx="36" cy="36" r="36" stroke="none"/>
+        <circle cx="36" cy="36" r="33" fill="none"/>
+      </g>
+      <g id="placeholder-12" data-name="placeholder" transform="translate(6528.5 -68.5) rotate(90)" fill="#46484c" stroke="#6f7278" stroke-width="6" opacity="0.6">
+        <circle cx="21" cy="21" r="21" stroke="none"/>
+        <circle cx="21" cy="21" r="18" fill="none"/>
+      </g>
+      <g id="placeholder-13" data-name="placeholder" transform="translate(6743.5 -68.5) rotate(90)" fill="#46484c" stroke="#6f7278" stroke-width="6" opacity="0.6">
+        <circle cx="21" cy="21" r="21" stroke="none"/>
+        <circle cx="21" cy="21" r="18" fill="none"/>
+      </g>
+      <g id="placeholder-14" data-name="placeholder" transform="translate(6538.986 -1.185) rotate(45)" fill="#46484c" stroke="#6f7278" stroke-width="6" opacity="0.6">
+        <circle cx="21" cy="21" r="21" stroke="none"/>
+        <circle cx="21" cy="21" r="18" fill="none"/>
+      </g>
+      <g id="placeholder-15" data-name="placeholder" transform="translate(6691.014 -153.212) rotate(45)" fill="#46484c" stroke="#6f7278" stroke-width="6" opacity="0.6">
+        <circle cx="21" cy="21" r="21" stroke="none"/>
+        <circle cx="21" cy="21" r="18" fill="none"/>
+      </g>
+      <g id="placeholder-16" data-name="placeholder" transform="translate(6568.685 -123.514) rotate(135)" fill="#46484c" stroke="#6f7278" stroke-width="6" opacity="0.6">
+        <circle cx="21" cy="21" r="21" stroke="none"/>
+        <circle cx="21" cy="21" r="18" fill="none"/>
+      </g>
+      <g id="placeholder-17" data-name="placeholder" transform="translate(6720.712 28.514) rotate(135)" fill="#46484c" stroke="#6f7278" stroke-width="6" opacity="0.6">
+        <circle cx="21" cy="21" r="21" stroke="none"/>
+        <circle cx="21" cy="21" r="18" fill="none"/>
+      </g>
+    </g>
+    <g id="HolyGraph" transform="translate(-790 85)">
+      <g id="graph_ranks">
+        <g id="rank_circle_2" transform="translate(6625 495)" fill="none" stroke="#00b7b9" stroke-width="10">
+          <circle cx="263" cy="263" r="263" stroke="none"/>
+          <circle cx="263" cy="263" r="258" fill="none"/>
+        </g>
+        <g id="rank_circle_3" transform="translate(6368 238)" fill="none" stroke="#46484c" stroke-width="5">
+          <circle cx="520" cy="520" r="520" stroke="none"/>
+          <circle cx="520" cy="520" r="517.5" fill="none"/>
+        </g>
+        <g id="rank_circle_4" transform="translate(6111 -26)" fill="none" stroke="#46484c" stroke-width="5">
+          <ellipse cx="778.5" cy="778" rx="778.5" ry="778" stroke="none"/>
+          <ellipse cx="778.5" cy="778" rx="776" ry="775.5" fill="none"/>
+        </g>
+        <g id="rank_circle_5" transform="translate(5860 -268)" fill="none" stroke="#46484c" stroke-width="5" opacity="0.6">
+          <ellipse cx="1028" cy="1026" rx="1028" ry="1026" stroke="none"/>
+          <ellipse cx="1028" cy="1026" rx="1025.5" ry="1023.5" fill="none"/>
+        </g>
+        <g id="rank_circle_6" transform="translate(5598 -525)" fill="none" stroke="#46484c" stroke-width="5" opacity="0.4">
+          <ellipse cx="1285" cy="1283" rx="1285" ry="1283" stroke="none"/>
+          <ellipse cx="1285" cy="1283" rx="1282.5" ry="1280.5" fill="none"/>
+        </g>
+        <g id="rank_circle_7" transform="translate(5351 -777)" fill="none" stroke="#46484c" stroke-width="5" opacity="0.2">
+          <ellipse cx="1538" cy="1535" rx="1538" ry="1535" stroke="none"/>
+          <ellipse cx="1538" cy="1535" rx="1535.5" ry="1532.5" fill="none"/>
+        </g>
+      </g>
+      <g id="graph_nodes">
+        <g id="rank_0">
+          <g id="node_empty" transform="translate(-113 386)">
+            <g id="circle" transform="translate(6917 288)" fill="#00b4b7" stroke="#00b4b7" stroke-width="8">
+              <circle cx="84" cy="84" r="84" stroke="none"/>
+              <circle cx="84" cy="84" r="80" fill="none"/>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 5126, -1565)" filter="url(#project_title)">
+              <text id="project_title-15" data-name="project_title" transform="translate(1826 1954)" fill="#fff" font-size="48" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Libft</tspan></text>
+            </g>
+          </g>
+        </g>
+        <g id="rank_1">
+          <g id="node_empty-2" data-name="node_empty" transform="translate(109 257)">
+            <g id="circle-2" data-name="circle" transform="translate(6917 288)" fill="#c96054" stroke="#c96054" stroke-width="8">
+              <circle cx="84" cy="84" r="84" stroke="none"/>
+              <circle cx="84" cy="84" r="80" fill="none"/>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 4904, -1436)" filter="url(#project_title-2)">
+              <text id="project_title-16" data-name="project_title" transform="translate(2013 1825)" fill="#fff" font-size="48" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">ft_printf</tspan></text>
+            </g>
+          </g>
+          <g id="node_empty-3" data-name="node_empty" transform="translate(-335 257)">
+            <g id="circle-3" data-name="circle" transform="translate(6917 288)" fill="#46484c" stroke="#00b4b7" stroke-width="8">
+              <circle cx="84" cy="84" r="84" stroke="none"/>
+              <circle cx="84" cy="84" r="80" fill="none"/>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 5348, -1436)" filter="url(#project_title-3)">
+              <text id="project_title-17" data-name="project_title" transform="translate(1518 1825)" fill="#00b4b7" font-size="48" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Born2beroot</tspan></text>
+            </g>
+          </g>
+          <g id="node_empty-4" data-name="node_empty" transform="translate(-113 643)">
+            <g id="circle-4" data-name="circle" transform="translate(6917 288)" fill="#00b4b7" stroke="#00b4b7" stroke-width="8">
+              <circle cx="84" cy="84" r="84" stroke="none"/>
+              <circle cx="84" cy="84" r="80" fill="none"/>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 5126, -1822)" filter="url(#project_title-4)">
+              <text id="project_title-18" data-name="project_title" transform="translate(1733 2211)" fill="#fff" font-size="48" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">get_next_line</tspan></text>
+            </g>
+          </g>
+        </g>
+        <g id="rank_2">
+          <g id="node_empty-5" data-name="node_empty" transform="translate(403 361)">
+            <g id="circle-5" data-name="circle" transform="translate(6917 288)" fill="#46484c" stroke="#6f7278" stroke-width="8">
+              <circle cx="84" cy="84" r="84" stroke="none"/>
+              <circle cx="84" cy="84" r="80" fill="none"/>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 4610, -1540)" filter="url(#project_title-5)">
+              <text id="project_title-19" data-name="project_title" transform="translate(2307 1929)" fill="#6f7278" font-size="48" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">so_long</tspan></text>
+            </g>
+          </g>
+          <g id="node_empty-6" data-name="node_empty" transform="translate(235 3)">
+            <g id="circle-6" data-name="circle" transform="translate(6917 288)" fill="#46484c" stroke="#6f7278" stroke-width="8">
+              <circle cx="84" cy="84" r="84" stroke="none"/>
+              <circle cx="84" cy="84" r="80" fill="none"/>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 4778, -1182)" filter="url(#project_title-6)">
+              <text id="project_title-20" data-name="project_title" transform="translate(2165 1571)" fill="#6f7278" font-size="48" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">pipex</tspan></text>
+            </g>
+          </g>
+          <g id="node_empty-7" data-name="node_empty" transform="translate(95 -81)">
+            <g id="circle-7" data-name="circle" transform="translate(6917 288)" fill="#46484c" stroke="#6f7278" stroke-width="8">
+              <circle cx="84" cy="84" r="84" stroke="none"/>
+              <circle cx="84" cy="84" r="80" fill="none"/>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 4918, -1098)" filter="url(#project_title-7)">
+              <text id="project_title-21" data-name="project_title" transform="translate(1996 1487)" fill="#6f7278" font-size="48" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">minitalk</tspan></text>
+            </g>
+          </g>
+          <g id="node_empty-8" data-name="node_empty" transform="translate(382 519)">
+            <g id="circle-8" data-name="circle" transform="translate(6917 288)" fill="#46484c" stroke="#6f7278" stroke-width="8">
+              <circle cx="84" cy="84" r="84" stroke="none"/>
+              <circle cx="84" cy="84" r="80" fill="none"/>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 4631, -1698)" filter="url(#project_title-8)">
+              <text id="project_title-22" data-name="project_title" transform="translate(2331 2087)" fill="#6f7278" font-size="48" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">FdF</tspan></text>
+            </g>
+          </g>
+          <g id="node_empty-9" data-name="node_empty" transform="translate(319 667)">
+            <g id="circle-9" data-name="circle" transform="translate(6917 288)" fill="#46484c" stroke="#6f7278" stroke-width="8">
+              <circle cx="84" cy="84" r="84" stroke="none"/>
+              <circle cx="84" cy="84" r="80" fill="none"/>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 4694, -1846)" filter="url(#project_title-9)">
+              <text id="project_title-23" data-name="project_title" transform="translate(2228 2235)" fill="#6f7278" font-size="48" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">fract-ol</tspan></text>
+            </g>
+          </g>
+          <g id="node_empty-10" data-name="node_empty" transform="translate(-437 -11)">
+            <g id="circle-10" data-name="circle" transform="translate(6917 288)" fill="#46484c" stroke="#6f7278" stroke-width="8">
+              <circle cx="84" cy="84" r="84" stroke="none"/>
+              <circle cx="84" cy="84" r="80" fill="none"/>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 5450, -1168)" filter="url(#project_title-10)">
+              <text id="project_title-24" data-name="project_title" transform="translate(1431 1557)" fill="#6f7278" font-size="48" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">push_swap</tspan></text>
+            </g>
+          </g>
+        </g>
+        <g id="rank_3">
+          <g id="node_empty-11" data-name="node_empty" transform="translate(-815 712)">
+            <g id="circle-11" data-name="circle" transform="translate(6917 288)" fill="#46484c" stroke="#6f7278" stroke-width="8">
+              <circle cx="84" cy="84" r="84" stroke="none"/>
+              <circle cx="84" cy="84" r="80" fill="none"/>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 5828, -1891)" filter="url(#project_title-11)">
+              <text id="project_title-25" data-name="project_title" transform="translate(1031 2280)" fill="#6f7278" font-size="48" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Philosophers</tspan></text>
+            </g>
+          </g>
+          <g id="node_empty-12" data-name="node_empty" transform="translate(521 835)">
+            <g id="circle-12" data-name="circle" transform="translate(6917 288)" fill="#46484c" stroke="#6f7278" stroke-width="8">
+              <circle cx="84" cy="84" r="84" stroke="none"/>
+              <circle cx="84" cy="84" r="80" fill="none"/>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 4492, -2014)" filter="url(#project_title-12)">
+              <text id="project_title-26" data-name="project_title" transform="translate(2411 2403)" fill="#6f7278" font-size="48" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">minishell</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="graph_exams">
+        <g id="exam_node_empty">
+          <g id="rectangle" transform="translate(6820 1221)" fill="#44464a" stroke="#6f7278" stroke-width="8">
+            <rect width="188" height="98" rx="35" stroke="none"/>
+            <rect x="4" y="4" width="180" height="90" rx="31" fill="none"/>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, 5013, -1179)" filter="url(#project_title-13)">
+            <text id="project_title-27" data-name="project_title" transform="translate(1817 2459)" fill="#6f7278" font-size="29" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Exam Rank 2</tspan></text>
+          </g>
+        </g>
+        <g id="exam_node_empty-2" data-name="exam_node_empty" transform="translate(39 -1279)">
+          <g id="rectangle-2" data-name="rectangle" transform="translate(6820 1221)" fill="#44464a" stroke="#6f7278" stroke-width="8">
+            <rect width="188" height="98" rx="35" stroke="none"/>
+            <rect x="4" y="4" width="180" height="90" rx="31" fill="none"/>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, 4974, 100)" filter="url(#project_title-14)">
+            <text id="project_title-28" data-name="project_title" transform="translate(1856 1180)" fill="#6f7278" font-size="29" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Exam Rank 3</tspan></text>
+          </g>
+        </g>
+      </g>
+      <g id="user-info" transform="translate(-157 1843)">
+        <text id="Holy_Graph" data-name="Holy Graph" transform="translate(6610 -2579)" fill="#fff" font-size="175" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Holy Graph</tspan></text>
+        <text id="Daniel_González_Carretero" data-name="Daniel González Carretero" transform="translate(6326 -2390)" fill="#fff" font-size="125" font-family="Roboto-Regular, Roboto" opacity="0.6"><tspan x="0" y="0">Daniel González Carretero</tspan></text>
+        <text id="dangonza" transform="translate(6771 -2213)" fill="#00b8ba" font-size="125" font-family="Roboto-Bold, Roboto" font-weight="700" text-decoration="underline"><tspan x="0" y="0">dangonza</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
