@@ -1,5 +1,37 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3753" height="3753" viewBox="0 0 3753 3753">
   <defs>
+  <style>
+    g[data-name="node_completed"] > g[data-name="circle"] {
+        fill: #00BABC;
+        stroke: #00BABC;
+    }
+
+    g[data-name="node_completed"] > g[data-name="circle"] path {
+        fill: #00BABC;
+    }
+
+    g[data-name="node_failed"] > g[data-name="circle"] {
+        fill: #CC6256;
+        stroke: #CC6256;
+    }
+
+    g[data-name="node_failed"] > g[data-name="circle"] path {
+        fill: #CC6256;
+    }
+
+    g[data-name="node_progress"] > g[data-name="circle"] {
+        stroke: #00BABC;
+    }
+
+    g[data-name="node_progress"] g text {
+        fill: #00BABC;
+    }
+
+    g[data-name="node_completed"] g text,
+    g[data-name="node_failed"] g text {
+        fill: #FFFFFF;
+    }
+  </style>
     <filter id="project_title" x="1766" y="1849" width="220" height="177" filterUnits="userSpaceOnUse">
       <feOffset input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="20" result="blur"/>
@@ -99,248 +131,246 @@
       <feComposite in="SourceGraphic"/>
     </filter>
   </defs>
-  <g id="miniature" transform="translate(-4223 1094)">
-    <g id="placeholders">
-      <rect id="background" width="3753" height="3753" transform="translate(4223 -1094)" fill="#041a25"/>
-      <g id="placeholder" transform="translate(5128 368)" fill="#46484c" stroke="#6f7278" stroke-width="6" opacity="0.6">
-        <circle cx="36" cy="36" r="36" stroke="none"/>
-        <circle cx="36" cy="36" r="33" fill="none"/>
+  <rect id="background" width="3753" height="3753" fill="#041a25"/>
+  <g id="HolyGraph" transform="translate(-5013 1179)">
+    <g id="graph_ranks">
+      <g id="rank_circle_2" transform="translate(6625 495)" fill="none">
+        <path d="M263,0C408.251,0,526,117.749,526,263S408.251,526,263,526,0,408.251,0,263,117.749,0,263,0Z" stroke="none"/>
+        <path d="M 263 5 C 245.4917907714844 5 227.9960021972656 6.7635498046875 210.9987182617188 10.24169921875 C 194.4359436035156 13.63092041015625 178.144287109375 18.68814086914062 162.5762939453125 25.27285766601562 C 147.2898559570312 31.73849487304688 132.545654296875 39.74142456054688 118.7532043457031 49.05941772460938 C 105.0906372070312 58.28970336914062 92.24270629882812 68.89022827148438 80.56643676757812 80.56643676757812 C 68.89022827148438 92.24270629882812 58.28970336914062 105.0906372070312 49.05941772460938 118.7532043457031 C 39.74142456054688 132.545654296875 31.73849487304688 147.2898559570312 25.27285766601562 162.5762939453125 C 18.68814086914062 178.144287109375 13.63092041015625 194.4359436035156 10.24169921875 210.9987182617188 C 6.7635498046875 227.9960021972656 5 245.4917907714844 5 263 C 5 280.5082092285156 6.7635498046875 298.0039978027344 10.24169921875 315.0012817382812 C 13.63092041015625 331.5640869140625 18.68814086914062 347.855712890625 25.27285766601562 363.4237060546875 C 31.73849487304688 378.7101440429688 39.74142456054688 393.454345703125 49.05941772460938 407.2467956542969 C 58.28970336914062 420.9093627929688 68.89022827148438 433.7572937011719 80.56643676757812 445.4335632324219 C 92.24270629882812 457.1098022460938 105.0906372070312 467.7102966308594 118.7532043457031 476.9405822753906 C 132.545654296875 486.2585754394531 147.2898559570312 494.2615051269531 162.5762939453125 500.7271423339844 C 178.144287109375 507.3118591308594 194.4359436035156 512.3690795898438 210.9987182617188 515.75830078125 C 227.9960021972656 519.2364501953125 245.4917907714844 521 263 521 C 280.5082092285156 521 298.0039978027344 519.2364501953125 315.0012817382812 515.75830078125 C 331.5640869140625 512.3690795898438 347.855712890625 507.3118591308594 363.4237060546875 500.7271423339844 C 378.7101440429688 494.2615051269531 393.454345703125 486.2585754394531 407.2467956542969 476.9405822753906 C 420.9093627929688 467.7102966308594 433.7572937011719 457.1098022460938 445.4335632324219 445.4335632324219 C 457.1098022460938 433.7572937011719 467.7102966308594 420.9093627929688 476.9405822753906 407.2467956542969 C 486.2585754394531 393.454345703125 494.2615051269531 378.7101440429688 500.7271423339844 363.4237060546875 C 507.3118591308594 347.855712890625 512.3690795898438 331.5640869140625 515.75830078125 315.0012817382812 C 519.2364501953125 298.0039978027344 521 280.5082092285156 521 263 C 521 245.4917907714844 519.2364501953125 227.9960021972656 515.75830078125 210.9987182617188 C 512.3690795898438 194.4359436035156 507.3118591308594 178.144287109375 500.7271423339844 162.5762939453125 C 494.2615051269531 147.2898559570312 486.2585754394531 132.545654296875 476.9405822753906 118.7532043457031 C 467.7102966308594 105.0906372070312 457.1098022460938 92.24270629882812 445.4335632324219 80.56643676757812 C 433.7572937011719 68.89022827148438 420.9093627929688 58.28970336914062 407.2467956542969 49.05941772460938 C 393.454345703125 39.74142456054688 378.7101440429688 31.73849487304688 363.4237060546875 25.27285766601562 C 347.855712890625 18.68814086914062 331.5640869140625 13.63092041015625 315.0012817382812 10.24169921875 C 298.0039978027344 6.7635498046875 280.5082092285156 5 263 5 M 263 0 C 408.2508544921875 0 526 117.7491455078125 526 263 C 526 408.2508544921875 408.2508544921875 526 263 526 C 117.7491455078125 526 0 408.2508544921875 0 263 C 0 117.7491455078125 117.7491455078125 0 263 0 Z" stroke="none" fill="#46484c"/>
       </g>
-      <g id="placeholder-2" data-name="placeholder" transform="translate(4946 1455)" fill="#46484c" stroke="#6f7278" stroke-width="6" opacity="0.4">
-        <circle cx="36" cy="36" r="36" stroke="none"/>
-        <circle cx="36" cy="36" r="33" fill="none"/>
+      <g id="rank_circle_3" transform="translate(6368 238)" fill="none" stroke="#46484c" stroke-width="5">
+        <circle cx="520" cy="520" r="520" stroke="none"/>
+        <circle cx="520" cy="520" r="517.5" fill="none"/>
       </g>
-      <g id="placeholder-3" data-name="placeholder" transform="translate(5549 1698)" fill="#46484c" stroke="#6f7278" stroke-width="6" opacity="0.6">
-        <circle cx="36" cy="36" r="36" stroke="none"/>
-        <circle cx="36" cy="36" r="33" fill="none"/>
+      <g id="rank_circle_4" transform="translate(6111 -26)" fill="none" stroke="#46484c" stroke-width="5">
+        <ellipse cx="778.5" cy="778" rx="778.5" ry="778" stroke="none"/>
+        <ellipse cx="778.5" cy="778" rx="776" ry="775.5" fill="none"/>
       </g>
-      <g id="placeholder-4" data-name="placeholder" transform="translate(6761 1882)" fill="#46484c" stroke="#6f7278" stroke-width="6" opacity="0.4">
-        <circle cx="36" cy="36" r="36" stroke="none"/>
-        <circle cx="36" cy="36" r="33" fill="none"/>
+      <g id="rank_circle_5" transform="translate(5860 -268)" fill="none" stroke="#46484c" stroke-width="5" opacity="0.6">
+        <ellipse cx="1028" cy="1026" rx="1028" ry="1026" stroke="none"/>
+        <ellipse cx="1028" cy="1026" rx="1025.5" ry="1023.5" fill="none"/>
       </g>
-      <g id="placeholder-5" data-name="placeholder" transform="translate(7197 1752)" fill="#46484c" stroke="#6f7278" stroke-width="6" opacity="0.2">
-        <circle cx="83" cy="83" r="83" stroke="none"/>
-        <circle cx="83" cy="83" r="80" fill="none"/>
+      <g id="rank_circle_6" transform="translate(5598 -525)" fill="none" stroke="#46484c" stroke-width="5" opacity="0.4">
+        <ellipse cx="1285" cy="1283" rx="1285" ry="1283" stroke="none"/>
+        <ellipse cx="1285" cy="1283" rx="1282.5" ry="1280.5" fill="none"/>
       </g>
-      <g id="placeholder-6" data-name="placeholder" transform="translate(5212 230)" fill="#46484c" stroke="#6f7278" stroke-width="6" opacity="0.6">
-        <circle cx="36" cy="36" r="36" stroke="none"/>
-        <circle cx="36" cy="36" r="33" fill="none"/>
-      </g>
-      <g id="placeholder-7" data-name="placeholder" transform="translate(6564 -98)" fill="#46484c" stroke="#6f7278" stroke-width="6" opacity="0.6">
-        <circle cx="50.5" cy="50.5" r="50.5" stroke="none"/>
-        <circle cx="50.5" cy="50.5" r="47.5" fill="none"/>
-      </g>
-      <g id="placeholder-8" data-name="placeholder" transform="translate(6594 39)" fill="#46484c" stroke="#6f7278" stroke-width="6" opacity="0.6">
-        <circle cx="21" cy="21" r="21" stroke="none"/>
-        <circle cx="21" cy="21" r="18" fill="none"/>
-      </g>
-      <g id="placeholder-9" data-name="placeholder" transform="translate(6594 -176)" fill="#46484c" stroke="#6f7278" stroke-width="6" opacity="0.6">
-        <circle cx="21" cy="21" r="21" stroke="none"/>
-        <circle cx="21" cy="21" r="18" fill="none"/>
-      </g>
-      <g id="placeholder-10" data-name="placeholder" transform="translate(5347 -260)" fill="#46484c" stroke="#6f7278" stroke-width="6" opacity="0.4">
-        <circle cx="36" cy="36" r="36" stroke="none"/>
-        <circle cx="36" cy="36" r="33" fill="none"/>
-      </g>
-      <g id="placeholder-11" data-name="placeholder" transform="translate(5480 -343)" fill="#46484c" stroke="#6f7278" stroke-width="6" opacity="0.4">
-        <circle cx="36" cy="36" r="36" stroke="none"/>
-        <circle cx="36" cy="36" r="33" fill="none"/>
-      </g>
-      <g id="placeholder-12" data-name="placeholder" transform="translate(6528.5 -68.5) rotate(90)" fill="#46484c" stroke="#6f7278" stroke-width="6" opacity="0.6">
-        <circle cx="21" cy="21" r="21" stroke="none"/>
-        <circle cx="21" cy="21" r="18" fill="none"/>
-      </g>
-      <g id="placeholder-13" data-name="placeholder" transform="translate(6743.5 -68.5) rotate(90)" fill="#46484c" stroke="#6f7278" stroke-width="6" opacity="0.6">
-        <circle cx="21" cy="21" r="21" stroke="none"/>
-        <circle cx="21" cy="21" r="18" fill="none"/>
-      </g>
-      <g id="placeholder-14" data-name="placeholder" transform="translate(6538.986 -1.185) rotate(45)" fill="#46484c" stroke="#6f7278" stroke-width="6" opacity="0.6">
-        <circle cx="21" cy="21" r="21" stroke="none"/>
-        <circle cx="21" cy="21" r="18" fill="none"/>
-      </g>
-      <g id="placeholder-15" data-name="placeholder" transform="translate(6691.014 -153.212) rotate(45)" fill="#46484c" stroke="#6f7278" stroke-width="6" opacity="0.6">
-        <circle cx="21" cy="21" r="21" stroke="none"/>
-        <circle cx="21" cy="21" r="18" fill="none"/>
-      </g>
-      <g id="placeholder-16" data-name="placeholder" transform="translate(6568.685 -123.514) rotate(135)" fill="#46484c" stroke="#6f7278" stroke-width="6" opacity="0.6">
-        <circle cx="21" cy="21" r="21" stroke="none"/>
-        <circle cx="21" cy="21" r="18" fill="none"/>
-      </g>
-      <g id="placeholder-17" data-name="placeholder" transform="translate(6720.712 28.514) rotate(135)" fill="#46484c" stroke="#6f7278" stroke-width="6" opacity="0.6">
-        <circle cx="21" cy="21" r="21" stroke="none"/>
-        <circle cx="21" cy="21" r="18" fill="none"/>
+      <g id="rank_circle_7" transform="translate(5351 -777)" fill="none" stroke="#46484c" stroke-width="5" opacity="0.2">
+        <ellipse cx="1538" cy="1535" rx="1538" ry="1535" stroke="none"/>
+        <ellipse cx="1538" cy="1535" rx="1535.5" ry="1532.5" fill="none"/>
       </g>
     </g>
-    <g id="HolyGraph" transform="translate(-790 85)">
-      <g id="graph_ranks">
-        <g id="rank_circle_2" transform="translate(6625 495)" fill="none" stroke="#00b7b9" stroke-width="10">
-          <circle cx="263" cy="263" r="263" stroke="none"/>
-          <circle cx="263" cy="263" r="258" fill="none"/>
-        </g>
-        <g id="rank_circle_3" transform="translate(6368 238)" fill="none" stroke="#46484c" stroke-width="5">
-          <circle cx="520" cy="520" r="520" stroke="none"/>
-          <circle cx="520" cy="520" r="517.5" fill="none"/>
-        </g>
-        <g id="rank_circle_4" transform="translate(6111 -26)" fill="none" stroke="#46484c" stroke-width="5">
-          <ellipse cx="778.5" cy="778" rx="778.5" ry="778" stroke="none"/>
-          <ellipse cx="778.5" cy="778" rx="776" ry="775.5" fill="none"/>
-        </g>
-        <g id="rank_circle_5" transform="translate(5860 -268)" fill="none" stroke="#46484c" stroke-width="5" opacity="0.6">
-          <ellipse cx="1028" cy="1026" rx="1028" ry="1026" stroke="none"/>
-          <ellipse cx="1028" cy="1026" rx="1025.5" ry="1023.5" fill="none"/>
-        </g>
-        <g id="rank_circle_6" transform="translate(5598 -525)" fill="none" stroke="#46484c" stroke-width="5" opacity="0.4">
-          <ellipse cx="1285" cy="1283" rx="1285" ry="1283" stroke="none"/>
-          <ellipse cx="1285" cy="1283" rx="1282.5" ry="1280.5" fill="none"/>
-        </g>
-        <g id="rank_circle_7" transform="translate(5351 -777)" fill="none" stroke="#46484c" stroke-width="5" opacity="0.2">
-          <ellipse cx="1538" cy="1535" rx="1538" ry="1535" stroke="none"/>
-          <ellipse cx="1538" cy="1535" rx="1535.5" ry="1532.5" fill="none"/>
-        </g>
-      </g>
-      <g id="graph_nodes">
-        <g id="rank_0">
-          <g id="node_empty" transform="translate(-113 386)">
-            <g id="circle" transform="translate(6917 288)" fill="#00b4b7" stroke="#00b4b7" stroke-width="8">
-              <circle cx="84" cy="84" r="84" stroke="none"/>
-              <circle cx="84" cy="84" r="80" fill="none"/>
-            </g>
-            <g transform="matrix(1, 0, 0, 1, 5126, -1565)" filter="url(#project_title)">
-              <text id="project_title-15" data-name="project_title" transform="translate(1826 1954)" fill="#fff" font-size="48" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Libft</tspan></text>
-            </g>
+    <g id="graph_nodes">
+      <g id="rank_0">
+        <g id="node_empty" data-name="node_completed" transform="translate(-113 386)">
+          <g id="circle" data-name="circle" transform="translate(6917 288)" fill="#46484c">
+            <path d="M 84 164 C 78.56947326660156 164 73.14357757568359 163.4531555175781 67.87297821044922 162.3746185302734 C 62.73834991455078 161.3239288330078 57.68780136108398 159.7561492919922 52.86162567138672 157.71484375 C 48.12215042114258 155.7102203369141 43.55062484741211 153.2288513183594 39.27402496337891 150.3396301269531 C 35.03702545166016 147.4771728515625 31.05262565612793 144.189697265625 27.43144989013672 140.5685424804688 C 23.81030082702637 136.9473724365234 20.52282524108887 132.9629821777344 17.66037559509277 128.7259674072266 C 14.77114963531494 124.4493713378906 12.28977489471436 119.8778533935547 10.28514957427979 115.1383743286133 C 8.243849754333496 110.3122024536133 6.676074981689453 105.2616500854492 5.625374794006348 100.1270217895508 C 4.546850204467773 94.85642242431641 4 89.43052673339844 4 84 C 4 78.56947326660156 4.546850204467773 73.14357757568359 5.625374794006348 67.87297821044922 C 6.676074981689453 62.73834991455078 8.243849754333496 57.68780136108398 10.28514957427979 52.86162567138672 C 12.28977489471436 48.12215042114258 14.77114963531494 43.55062484741211 17.66037559509277 39.27402496337891 C 20.52282524108887 35.03702545166016 23.81030082702637 31.05262565612793 27.43144989013672 27.43144989013672 C 31.05262565612793 23.81030082702637 35.03702545166016 20.52282524108887 39.27402496337891 17.66037559509277 C 43.55062484741211 14.77114963531494 48.12215042114258 12.28977489471436 52.86162567138672 10.28514957427979 C 57.68780136108398 8.243849754333496 62.73834991455078 6.676074981689453 67.87297821044922 5.625374794006348 C 73.14357757568359 4.546850204467773 78.56947326660156 4 84 4 C 89.43052673339844 4 94.85642242431641 4.546850204467773 100.1270217895508 5.625374794006348 C 105.2616500854492 6.676074981689453 110.3122024536133 8.243849754333496 115.1383743286133 10.28514957427979 C 119.8778533935547 12.28977489471436 124.4493713378906 14.77114963531494 128.7259674072266 17.66037559509277 C 132.9629821777344 20.52282524108887 136.9473724365234 23.81030082702637 140.5685424804688 27.43144989013672 C 144.189697265625 31.05262565612793 147.4771728515625 35.03702545166016 150.3396301269531 39.27402496337891 C 153.2288513183594 43.55062484741211 155.7102203369141 48.12215042114258 157.71484375 52.86162567138672 C 159.7561492919922 57.68780136108398 161.3239288330078 62.73834991455078 162.3746185302734 67.87297821044922 C 163.4531555175781 73.14357757568359 164 78.56947326660156 164 84 C 164 89.43052673339844 163.4531555175781 94.85642242431641 162.3746185302734 100.1270217895508 C 161.3239288330078 105.2616500854492 159.7561492919922 110.3122024536133 157.71484375 115.1383743286133 C 155.7102203369141 119.8778533935547 153.2288513183594 124.4493713378906 150.3396301269531 128.7259674072266 C 147.4771728515625 132.9629821777344 144.189697265625 136.9473724365234 140.5685424804688 140.5685424804688 C 136.9473724365234 144.189697265625 132.9629821777344 147.4771728515625 128.7259674072266 150.3396301269531 C 124.4493713378906 153.2288513183594 119.8778533935547 155.7102203369141 115.1383743286133 157.71484375 C 110.3122024536133 159.7561492919922 105.2616500854492 161.3239288330078 100.1270217895508 162.3746185302734 C 94.85642242431641 163.4531555175781 89.43052673339844 164 84 164 Z" stroke="none"/>
+            <path d="M 84 8 C 42.09346771240234 8 8 42.09346771240234 8 84 C 8 125.9065246582031 42.09346771240234 160 84 160 C 125.9065246582031 160 160 125.9065246582031 160 84 C 160 42.09346771240234 125.9065246582031 8 84 8 M 84 0 C 130.3919067382812 0 168 37.60809326171875 168 84 C 168 130.3919067382812 130.3919067382812 168 84 168 C 37.60809326171875 168 0 130.3919067382812 0 84 C 0 37.60809326171875 37.60809326171875 0 84 0 Z" stroke="none" fill="#6f7278"/>
           </g>
-        </g>
-        <g id="rank_1">
-          <g id="node_empty-2" data-name="node_empty" transform="translate(109 257)">
-            <g id="circle-2" data-name="circle" transform="translate(6917 288)" fill="#c96054" stroke="#c96054" stroke-width="8">
-              <circle cx="84" cy="84" r="84" stroke="none"/>
-              <circle cx="84" cy="84" r="80" fill="none"/>
-            </g>
-            <g transform="matrix(1, 0, 0, 1, 4904, -1436)" filter="url(#project_title-2)">
-              <text id="project_title-16" data-name="project_title" transform="translate(2013 1825)" fill="#fff" font-size="48" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">ft_printf</tspan></text>
-            </g>
-          </g>
-          <g id="node_empty-3" data-name="node_empty" transform="translate(-335 257)">
-            <g id="circle-3" data-name="circle" transform="translate(6917 288)" fill="#46484c" stroke="#00b4b7" stroke-width="8">
-              <circle cx="84" cy="84" r="84" stroke="none"/>
-              <circle cx="84" cy="84" r="80" fill="none"/>
-            </g>
-            <g transform="matrix(1, 0, 0, 1, 5348, -1436)" filter="url(#project_title-3)">
-              <text id="project_title-17" data-name="project_title" transform="translate(1518 1825)" fill="#00b4b7" font-size="48" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Born2beroot</tspan></text>
-            </g>
-          </g>
-          <g id="node_empty-4" data-name="node_empty" transform="translate(-113 643)">
-            <g id="circle-4" data-name="circle" transform="translate(6917 288)" fill="#00b4b7" stroke="#00b4b7" stroke-width="8">
-              <circle cx="84" cy="84" r="84" stroke="none"/>
-              <circle cx="84" cy="84" r="80" fill="none"/>
-            </g>
-            <g transform="matrix(1, 0, 0, 1, 5126, -1822)" filter="url(#project_title-4)">
-              <text id="project_title-18" data-name="project_title" transform="translate(1733 2211)" fill="#fff" font-size="48" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">get_next_line</tspan></text>
-            </g>
-          </g>
-        </g>
-        <g id="rank_2">
-          <g id="node_empty-5" data-name="node_empty" transform="translate(403 361)">
-            <g id="circle-5" data-name="circle" transform="translate(6917 288)" fill="#46484c" stroke="#6f7278" stroke-width="8">
-              <circle cx="84" cy="84" r="84" stroke="none"/>
-              <circle cx="84" cy="84" r="80" fill="none"/>
-            </g>
-            <g transform="matrix(1, 0, 0, 1, 4610, -1540)" filter="url(#project_title-5)">
-              <text id="project_title-19" data-name="project_title" transform="translate(2307 1929)" fill="#6f7278" font-size="48" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">so_long</tspan></text>
-            </g>
-          </g>
-          <g id="node_empty-6" data-name="node_empty" transform="translate(235 3)">
-            <g id="circle-6" data-name="circle" transform="translate(6917 288)" fill="#46484c" stroke="#6f7278" stroke-width="8">
-              <circle cx="84" cy="84" r="84" stroke="none"/>
-              <circle cx="84" cy="84" r="80" fill="none"/>
-            </g>
-            <g transform="matrix(1, 0, 0, 1, 4778, -1182)" filter="url(#project_title-6)">
-              <text id="project_title-20" data-name="project_title" transform="translate(2165 1571)" fill="#6f7278" font-size="48" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">pipex</tspan></text>
-            </g>
-          </g>
-          <g id="node_empty-7" data-name="node_empty" transform="translate(95 -81)">
-            <g id="circle-7" data-name="circle" transform="translate(6917 288)" fill="#46484c" stroke="#6f7278" stroke-width="8">
-              <circle cx="84" cy="84" r="84" stroke="none"/>
-              <circle cx="84" cy="84" r="80" fill="none"/>
-            </g>
-            <g transform="matrix(1, 0, 0, 1, 4918, -1098)" filter="url(#project_title-7)">
-              <text id="project_title-21" data-name="project_title" transform="translate(1996 1487)" fill="#6f7278" font-size="48" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">minitalk</tspan></text>
-            </g>
-          </g>
-          <g id="node_empty-8" data-name="node_empty" transform="translate(382 519)">
-            <g id="circle-8" data-name="circle" transform="translate(6917 288)" fill="#46484c" stroke="#6f7278" stroke-width="8">
-              <circle cx="84" cy="84" r="84" stroke="none"/>
-              <circle cx="84" cy="84" r="80" fill="none"/>
-            </g>
-            <g transform="matrix(1, 0, 0, 1, 4631, -1698)" filter="url(#project_title-8)">
-              <text id="project_title-22" data-name="project_title" transform="translate(2331 2087)" fill="#6f7278" font-size="48" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">FdF</tspan></text>
-            </g>
-          </g>
-          <g id="node_empty-9" data-name="node_empty" transform="translate(319 667)">
-            <g id="circle-9" data-name="circle" transform="translate(6917 288)" fill="#46484c" stroke="#6f7278" stroke-width="8">
-              <circle cx="84" cy="84" r="84" stroke="none"/>
-              <circle cx="84" cy="84" r="80" fill="none"/>
-            </g>
-            <g transform="matrix(1, 0, 0, 1, 4694, -1846)" filter="url(#project_title-9)">
-              <text id="project_title-23" data-name="project_title" transform="translate(2228 2235)" fill="#6f7278" font-size="48" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">fract-ol</tspan></text>
-            </g>
-          </g>
-          <g id="node_empty-10" data-name="node_empty" transform="translate(-437 -11)">
-            <g id="circle-10" data-name="circle" transform="translate(6917 288)" fill="#46484c" stroke="#6f7278" stroke-width="8">
-              <circle cx="84" cy="84" r="84" stroke="none"/>
-              <circle cx="84" cy="84" r="80" fill="none"/>
-            </g>
-            <g transform="matrix(1, 0, 0, 1, 5450, -1168)" filter="url(#project_title-10)">
-              <text id="project_title-24" data-name="project_title" transform="translate(1431 1557)" fill="#6f7278" font-size="48" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">push_swap</tspan></text>
-            </g>
-          </g>
-        </g>
-        <g id="rank_3">
-          <g id="node_empty-11" data-name="node_empty" transform="translate(-815 712)">
-            <g id="circle-11" data-name="circle" transform="translate(6917 288)" fill="#46484c" stroke="#6f7278" stroke-width="8">
-              <circle cx="84" cy="84" r="84" stroke="none"/>
-              <circle cx="84" cy="84" r="80" fill="none"/>
-            </g>
-            <g transform="matrix(1, 0, 0, 1, 5828, -1891)" filter="url(#project_title-11)">
-              <text id="project_title-25" data-name="project_title" transform="translate(1031 2280)" fill="#6f7278" font-size="48" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Philosophers</tspan></text>
-            </g>
-          </g>
-          <g id="node_empty-12" data-name="node_empty" transform="translate(521 835)">
-            <g id="circle-12" data-name="circle" transform="translate(6917 288)" fill="#46484c" stroke="#6f7278" stroke-width="8">
-              <circle cx="84" cy="84" r="84" stroke="none"/>
-              <circle cx="84" cy="84" r="80" fill="none"/>
-            </g>
-            <g transform="matrix(1, 0, 0, 1, 4492, -2014)" filter="url(#project_title-12)">
-              <text id="project_title-26" data-name="project_title" transform="translate(2411 2403)" fill="#6f7278" font-size="48" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">minishell</tspan></text>
-            </g>
+          <g transform="matrix(1, 0, 0, 1, 5126, -1565)" filter="url(#project_title)">
+            <text id="project_title-15" data-name="project_title" transform="translate(1826 1954)" fill="#6f7278" font-size="48" font-family="Roboto-Bold, Roboto, sans-serif" font-weight="700"><tspan x="0" y="0">Libft</tspan></text>
           </g>
         </g>
       </g>
-      <g id="graph_exams">
-        <g id="exam_node_empty">
-          <g id="rectangle" transform="translate(6820 1221)" fill="#44464a" stroke="#6f7278" stroke-width="8">
-            <rect width="188" height="98" rx="35" stroke="none"/>
-            <rect x="4" y="4" width="180" height="90" rx="31" fill="none"/>
+      <g id="rank_1">
+        <g id="node_empty-2" data-name="node_progress" transform="translate(109 257)">
+          <g id="circle-2" data-name="circle" transform="translate(6917 288)" fill="#46484c" stroke="#6f7278" stroke-width="8">
+            <circle cx="84" cy="84" r="84" stroke="none"/>
+            <circle cx="84" cy="84" r="80" fill="none"/>
           </g>
-          <g transform="matrix(1, 0, 0, 1, 5013, -1179)" filter="url(#project_title-13)">
-            <text id="project_title-27" data-name="project_title" transform="translate(1817 2459)" fill="#6f7278" font-size="29" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Exam Rank 2</tspan></text>
+          <g transform="matrix(1, 0, 0, 1, 4904, -1436)" filter="url(#project_title-2)">
+            <text id="project_title-16" data-name="project_title" transform="translate(2013 1825)" fill="#6f7278" font-size="48" font-family="Roboto-Bold, Roboto, sans-serif" font-weight="700"><tspan x="0" y="0">ft_printf</tspan></text>
           </g>
         </g>
-        <g id="exam_node_empty-2" data-name="exam_node_empty" transform="translate(39 -1279)">
-          <g id="rectangle-2" data-name="rectangle" transform="translate(6820 1221)" fill="#44464a" stroke="#6f7278" stroke-width="8">
-            <rect width="188" height="98" rx="35" stroke="none"/>
-            <rect x="4" y="4" width="180" height="90" rx="31" fill="none"/>
+        <g id="node_empty-3" data-name="node_completed" transform="translate(-335 257)">
+          <g id="circle-3" data-name="circle" transform="translate(6917 288)" fill="#46484c">
+            <path d="M 84 164 C 78.56947326660156 164 73.14357757568359 163.4531555175781 67.87297821044922 162.3746185302734 C 62.73834991455078 161.3239288330078 57.68780136108398 159.7561492919922 52.86162567138672 157.71484375 C 48.12215042114258 155.7102203369141 43.55062484741211 153.2288513183594 39.27402496337891 150.3396301269531 C 35.03702545166016 147.4771728515625 31.05262565612793 144.189697265625 27.43144989013672 140.5685424804688 C 23.81030082702637 136.9473724365234 20.52282524108887 132.9629821777344 17.66037559509277 128.7259674072266 C 14.77114963531494 124.4493713378906 12.28977489471436 119.8778533935547 10.28514957427979 115.1383743286133 C 8.243849754333496 110.3122024536133 6.676074981689453 105.2616500854492 5.625374794006348 100.1270217895508 C 4.546850204467773 94.85642242431641 4 89.43052673339844 4 84 C 4 78.56947326660156 4.546850204467773 73.14357757568359 5.625374794006348 67.87297821044922 C 6.676074981689453 62.73834991455078 8.243849754333496 57.68780136108398 10.28514957427979 52.86162567138672 C 12.28977489471436 48.12215042114258 14.77114963531494 43.55062484741211 17.66037559509277 39.27402496337891 C 20.52282524108887 35.03702545166016 23.81030082702637 31.05262565612793 27.43144989013672 27.43144989013672 C 31.05262565612793 23.81030082702637 35.03702545166016 20.52282524108887 39.27402496337891 17.66037559509277 C 43.55062484741211 14.77114963531494 48.12215042114258 12.28977489471436 52.86162567138672 10.28514957427979 C 57.68780136108398 8.243849754333496 62.73834991455078 6.676074981689453 67.87297821044922 5.625374794006348 C 73.14357757568359 4.546850204467773 78.56947326660156 4 84 4 C 89.43052673339844 4 94.85642242431641 4.546850204467773 100.1270217895508 5.625374794006348 C 105.2616500854492 6.676074981689453 110.3122024536133 8.243849754333496 115.1383743286133 10.28514957427979 C 119.8778533935547 12.28977489471436 124.4493713378906 14.77114963531494 128.7259674072266 17.66037559509277 C 132.9629821777344 20.52282524108887 136.9473724365234 23.81030082702637 140.5685424804688 27.43144989013672 C 144.189697265625 31.05262565612793 147.4771728515625 35.03702545166016 150.3396301269531 39.27402496337891 C 153.2288513183594 43.55062484741211 155.7102203369141 48.12215042114258 157.71484375 52.86162567138672 C 159.7561492919922 57.68780136108398 161.3239288330078 62.73834991455078 162.3746185302734 67.87297821044922 C 163.4531555175781 73.14357757568359 164 78.56947326660156 164 84 C 164 89.43052673339844 163.4531555175781 94.85642242431641 162.3746185302734 100.1270217895508 C 161.3239288330078 105.2616500854492 159.7561492919922 110.3122024536133 157.71484375 115.1383743286133 C 155.7102203369141 119.8778533935547 153.2288513183594 124.4493713378906 150.3396301269531 128.7259674072266 C 147.4771728515625 132.9629821777344 144.189697265625 136.9473724365234 140.5685424804688 140.5685424804688 C 136.9473724365234 144.189697265625 132.9629821777344 147.4771728515625 128.7259674072266 150.3396301269531 C 124.4493713378906 153.2288513183594 119.8778533935547 155.7102203369141 115.1383743286133 157.71484375 C 110.3122024536133 159.7561492919922 105.2616500854492 161.3239288330078 100.1270217895508 162.3746185302734 C 94.85642242431641 163.4531555175781 89.43052673339844 164 84 164 Z" stroke="none"/>
+            <path d="M 84 8 C 42.09346771240234 8 8 42.09346771240234 8 84 C 8 125.9065246582031 42.09346771240234 160 84 160 C 125.9065246582031 160 160 125.9065246582031 160 84 C 160 42.09346771240234 125.9065246582031 8 84 8 M 84 0 C 130.3919067382812 0 168 37.60809326171875 168 84 C 168 130.3919067382812 130.3919067382812 168 84 168 C 37.60809326171875 168 0 130.3919067382812 0 84 C 0 37.60809326171875 37.60809326171875 0 84 0 Z" stroke="none" fill="#6f7278"/>
           </g>
-          <g transform="matrix(1, 0, 0, 1, 4974, 100)" filter="url(#project_title-14)">
-            <text id="project_title-28" data-name="project_title" transform="translate(1856 1180)" fill="#6f7278" font-size="29" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Exam Rank 3</tspan></text>
+          <g transform="matrix(1, 0, 0, 1, 5348, -1436)" filter="url(#project_title-3)">
+            <text id="project_title-17" data-name="project_title" transform="translate(1518 1825)" fill="#6f7278" font-size="48" font-family="Roboto-Bold, Roboto, sans-serif" font-weight="700"><tspan x="0" y="0">Born2beroot</tspan></text>
+          </g>
+        </g>
+        <g id="node_empty-4" data-name="node_completed" transform="translate(-113 643)">
+          <g id="circle-4" data-name="circle" transform="translate(6917 288)" fill="#46484c">
+            <path d="M 84 164 C 78.56947326660156 164 73.14357757568359 163.4531555175781 67.87297821044922 162.3746185302734 C 62.73834991455078 161.3239288330078 57.68780136108398 159.7561492919922 52.86162567138672 157.71484375 C 48.12215042114258 155.7102203369141 43.55062484741211 153.2288513183594 39.27402496337891 150.3396301269531 C 35.03702545166016 147.4771728515625 31.05262565612793 144.189697265625 27.43144989013672 140.5685424804688 C 23.81030082702637 136.9473724365234 20.52282524108887 132.9629821777344 17.66037559509277 128.7259674072266 C 14.77114963531494 124.4493713378906 12.28977489471436 119.8778533935547 10.28514957427979 115.1383743286133 C 8.243849754333496 110.3122024536133 6.676074981689453 105.2616500854492 5.625374794006348 100.1270217895508 C 4.546850204467773 94.85642242431641 4 89.43052673339844 4 84 C 4 78.56947326660156 4.546850204467773 73.14357757568359 5.625374794006348 67.87297821044922 C 6.676074981689453 62.73834991455078 8.243849754333496 57.68780136108398 10.28514957427979 52.86162567138672 C 12.28977489471436 48.12215042114258 14.77114963531494 43.55062484741211 17.66037559509277 39.27402496337891 C 20.52282524108887 35.03702545166016 23.81030082702637 31.05262565612793 27.43144989013672 27.43144989013672 C 31.05262565612793 23.81030082702637 35.03702545166016 20.52282524108887 39.27402496337891 17.66037559509277 C 43.55062484741211 14.77114963531494 48.12215042114258 12.28977489471436 52.86162567138672 10.28514957427979 C 57.68780136108398 8.243849754333496 62.73834991455078 6.676074981689453 67.87297821044922 5.625374794006348 C 73.14357757568359 4.546850204467773 78.56947326660156 4 84 4 C 89.43052673339844 4 94.85642242431641 4.546850204467773 100.1270217895508 5.625374794006348 C 105.2616500854492 6.676074981689453 110.3122024536133 8.243849754333496 115.1383743286133 10.28514957427979 C 119.8778533935547 12.28977489471436 124.4493713378906 14.77114963531494 128.7259674072266 17.66037559509277 C 132.9629821777344 20.52282524108887 136.9473724365234 23.81030082702637 140.5685424804688 27.43144989013672 C 144.189697265625 31.05262565612793 147.4771728515625 35.03702545166016 150.3396301269531 39.27402496337891 C 153.2288513183594 43.55062484741211 155.7102203369141 48.12215042114258 157.71484375 52.86162567138672 C 159.7561492919922 57.68780136108398 161.3239288330078 62.73834991455078 162.3746185302734 67.87297821044922 C 163.4531555175781 73.14357757568359 164 78.56947326660156 164 84 C 164 89.43052673339844 163.4531555175781 94.85642242431641 162.3746185302734 100.1270217895508 C 161.3239288330078 105.2616500854492 159.7561492919922 110.3122024536133 157.71484375 115.1383743286133 C 155.7102203369141 119.8778533935547 153.2288513183594 124.4493713378906 150.3396301269531 128.7259674072266 C 147.4771728515625 132.9629821777344 144.189697265625 136.9473724365234 140.5685424804688 140.5685424804688 C 136.9473724365234 144.189697265625 132.9629821777344 147.4771728515625 128.7259674072266 150.3396301269531 C 124.4493713378906 153.2288513183594 119.8778533935547 155.7102203369141 115.1383743286133 157.71484375 C 110.3122024536133 159.7561492919922 105.2616500854492 161.3239288330078 100.1270217895508 162.3746185302734 C 94.85642242431641 163.4531555175781 89.43052673339844 164 84 164 Z" stroke="none"/>
+            <path d="M 84 8 C 42.09346771240234 8 8 42.09346771240234 8 84 C 8 125.9065246582031 42.09346771240234 160 84 160 C 125.9065246582031 160 160 125.9065246582031 160 84 C 160 42.09346771240234 125.9065246582031 8 84 8 M 84 0 C 130.3919067382812 0 168 37.60809326171875 168 84 C 168 130.3919067382812 130.3919067382812 168 84 168 C 37.60809326171875 168 0 130.3919067382812 0 84 C 0 37.60809326171875 37.60809326171875 0 84 0 Z" stroke="none" fill="#6f7278"/>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, 5126, -1822)" filter="url(#project_title-4)">
+            <text id="project_title-18" data-name="project_title" transform="translate(1733 2211)" fill="#6f7278" font-size="48" font-family="Roboto-Bold, Roboto, sans-serif" font-weight="700"><tspan x="0" y="0">get_next_line</tspan></text>
           </g>
         </g>
       </g>
-      <g id="user-info" transform="translate(-157 1843)">
-        <text id="Holy_Graph" data-name="Holy Graph" transform="translate(6610 -2579)" fill="#fff" font-size="175" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Holy Graph</tspan></text>
-        <text id="Daniel_González_Carretero" data-name="Daniel González Carretero" transform="translate(6326 -2390)" fill="#fff" font-size="125" font-family="Roboto-Regular, Roboto" opacity="0.6"><tspan x="0" y="0">Daniel González Carretero</tspan></text>
-        <text id="dangonza" transform="translate(6771 -2213)" fill="#00b8ba" font-size="125" font-family="Roboto-Bold, Roboto" font-weight="700" text-decoration="underline"><tspan x="0" y="0">dangonza</tspan></text>
+      <g id="rank_2">
+        <g id="node_empty-5" data-name="node_empty" transform="translate(403 361)">
+          <g id="circle-5" data-name="circle" transform="translate(6917 288)" fill="#46484c" stroke="#6f7278" stroke-width="8">
+            <circle cx="84" cy="84" r="84" stroke="none"/>
+            <circle cx="84" cy="84" r="80" fill="none"/>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, 4610, -1540)" filter="url(#project_title-5)">
+            <text id="project_title-19" data-name="project_title" transform="translate(2307 1929)" fill="#6f7278" font-size="48" font-family="Roboto-Bold, Roboto, sans-serif" font-weight="700"><tspan x="0" y="0">so_long</tspan></text>
+          </g>
+        </g>
+        <g id="node_empty-6" data-name="node_empty" transform="translate(235 3)">
+          <g id="circle-6" data-name="circle" transform="translate(6917 288)" fill="#46484c" stroke="#6f7278" stroke-width="8">
+            <circle cx="84" cy="84" r="84" stroke="none"/>
+            <circle cx="84" cy="84" r="80" fill="none"/>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, 4778, -1182)" filter="url(#project_title-6)">
+            <text id="project_title-20" data-name="project_title" transform="translate(2165 1571)" fill="#6f7278" font-size="48" font-family="Roboto-Bold, Roboto, sans-serif" font-weight="700"><tspan x="0" y="0">pipex</tspan></text>
+          </g>
+        </g>
+        <g id="node_empty-7" data-name="node_empty" transform="translate(95 -81)">
+          <g id="circle-7" data-name="circle" transform="translate(6917 288)" fill="#46484c" stroke="#6f7278" stroke-width="8">
+            <circle cx="84" cy="84" r="84" stroke="none"/>
+            <circle cx="84" cy="84" r="80" fill="none"/>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, 4918, -1098)" filter="url(#project_title-7)">
+            <text id="project_title-21" data-name="project_title" transform="translate(1996 1487)" fill="#6f7278" font-size="48" font-family="Roboto-Bold, Roboto, sans-serif" font-weight="700"><tspan x="0" y="0">minitalk</tspan></text>
+          </g>
+        </g>
+        <g id="node_empty-8" data-name="node_empty" transform="translate(382 519)">
+          <g id="circle-8" data-name="circle" transform="translate(6917 288)" fill="#46484c" stroke="#6f7278" stroke-width="8">
+            <circle cx="84" cy="84" r="84" stroke="none"/>
+            <circle cx="84" cy="84" r="80" fill="none"/>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, 4631, -1698)" filter="url(#project_title-8)">
+            <text id="project_title-22" data-name="project_title" transform="translate(2331 2087)" fill="#6f7278" font-size="48" font-family="Roboto-Bold, Roboto, sans-serif" font-weight="700"><tspan x="0" y="0">FdF</tspan></text>
+          </g>
+        </g>
+        <g id="node_empty-9" data-name="node_empty" transform="translate(319 667)">
+          <g id="circle-9" data-name="circle" transform="translate(6917 288)" fill="#46484c" stroke="#6f7278" stroke-width="8">
+            <circle cx="84" cy="84" r="84" stroke="none"/>
+            <circle cx="84" cy="84" r="80" fill="none"/>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, 4694, -1846)" filter="url(#project_title-9)">
+            <text id="project_title-23" data-name="project_title" transform="translate(2228 2235)" fill="#6f7278" font-size="48" font-family="Roboto-Bold, Roboto, sans-serif" font-weight="700"><tspan x="0" y="0">fract-ol</tspan></text>
+          </g>
+        </g>
+        <g id="node_empty-10" data-name="node_empty" transform="translate(-437 -11)">
+          <g id="circle-10" data-name="circle" transform="translate(6917 288)" fill="#46484c" stroke="#6f7278" stroke-width="8">
+            <circle cx="84" cy="84" r="84" stroke="none"/>
+            <circle cx="84" cy="84" r="80" fill="none"/>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, 5450, -1168)" filter="url(#project_title-10)">
+            <text id="project_title-24" data-name="project_title" transform="translate(1431 1557)" fill="#6f7278" font-size="48" font-family="Roboto-Bold, Roboto, sans-serif" font-weight="700"><tspan x="0" y="0">push_swap</tspan></text>
+          </g>
+        </g>
       </g>
+      <g id="rank_3">
+        <g id="node_empty-11" data-name="node_empty" transform="translate(-815 712)">
+          <g id="circle-11" data-name="circle" transform="translate(6917 288)" fill="#46484c" stroke="#6f7278" stroke-width="8">
+            <circle cx="84" cy="84" r="84" stroke="none"/>
+            <circle cx="84" cy="84" r="80" fill="none"/>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, 5828, -1891)" filter="url(#project_title-11)">
+            <text id="project_title-25" data-name="project_title" transform="translate(1031 2280)" fill="#6f7278" font-size="48" font-family="Roboto-Bold, Roboto, sans-serif" font-weight="700"><tspan x="0" y="0">Philosophers</tspan></text>
+          </g>
+        </g>
+        <g id="node_empty-12" data-name="node_empty" transform="translate(521 835)">
+          <g id="circle-12" data-name="circle" transform="translate(6917 288)" fill="#46484c" stroke="#6f7278" stroke-width="8">
+            <circle cx="84" cy="84" r="84" stroke="none"/>
+            <circle cx="84" cy="84" r="80" fill="none"/>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, 4492, -2014)" filter="url(#project_title-12)">
+            <text id="project_title-26" data-name="project_title" transform="translate(2411 2403)" fill="#6f7278" font-size="48" font-family="Roboto-Bold, Roboto, sans-serif" font-weight="700"><tspan x="0" y="0">minishell</tspan></text>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="graph_exams">
+      <g id="exam_node_empty">
+        <g id="rectangle" transform="translate(6820 1221)" fill="#44464a" stroke="#6f7278" stroke-width="8">
+          <rect width="188" height="98" rx="35" stroke="none"/>
+          <rect x="4" y="4" width="180" height="90" rx="31" fill="none"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 5013, -1179)" filter="url(#project_title-13)">
+          <text id="project_title-27" data-name="project_title" transform="translate(1817 2459)" fill="#6f7278" font-size="29" font-family="Roboto-Bold, Roboto, sans-serif" font-weight="700"><tspan x="0" y="0">Exam Rank 2</tspan></text>
+        </g>
+      </g>
+      <g id="exam_node_empty-2" data-name="exam_node_empty" transform="translate(39 -1279)">
+        <g id="rectangle-2" data-name="rectangle" transform="translate(6820 1221)" fill="#44464a" stroke="#6f7278" stroke-width="8">
+          <rect width="188" height="98" rx="35" stroke="none"/>
+          <rect x="4" y="4" width="180" height="90" rx="31" fill="none"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 4974, 100)" filter="url(#project_title-14)">
+          <text id="project_title-28" data-name="project_title" transform="translate(1856 1180)" fill="#6f7278" font-size="29" font-family="Roboto-Bold, Roboto, sans-serif" font-weight="700"><tspan x="0" y="0">Exam Rank 3</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="user-info" transform="translate(-157 1843)">
+      <text id="Holy_Graph" data-name="Holy Graph" transform="translate(6610 -2579)" fill="#fff" font-size="175" font-family="Roboto-Bold, Roboto, sans-serif" font-weight="700"><tspan x="0" y="0">Holy Graph</tspan></text>
+      <text id="Daniel_González_Carretero" data-name="Daniel González Carretero" transform="translate(6326 -2390)" fill="#fff" font-size="125" font-family="Roboto-Regular, Roboto" opacity="0.6"><tspan x="0" y="0">Daniel González Carretero</tspan></text>
+      <text id="dangonza" transform="translate(6771 -2213)" fill="#00b8ba" font-size="125" font-family="Roboto-Bold, Roboto, sans-serif" font-weight="700" text-decoration="underline"><tspan x="0" y="0">dangonza</tspan></text>
+    </g>
+  </g>
+  <g id="placeholders" transform="translate(-4223 1094)">
+    <g id="placeholder" transform="translate(5128 368)" fill="#1b2a32" stroke="#444e56" stroke-width="6">
+      <circle cx="36" cy="36" r="36" stroke="none"/>
+      <circle cx="36" cy="36" r="33" fill="none"/>
+    </g>
+    <g id="placeholder-2" data-name="placeholder" transform="translate(4946 1455)" fill="#1e2c34" stroke="#2f3d46" stroke-width="6">
+      <circle cx="36" cy="36" r="36" stroke="none"/>
+      <circle cx="36" cy="36" r="33" fill="none"/>
+    </g>
+    <g id="placeholder-3" data-name="placeholder" transform="translate(5549 1698)" fill="#1b2a32" stroke="#444e56" stroke-width="6">
+      <circle cx="36" cy="36" r="36" stroke="none"/>
+      <circle cx="36" cy="36" r="33" fill="none"/>
+    </g>
+    <g id="placeholder-4" data-name="placeholder" transform="translate(6761 1882)" fill="#1e2c34" stroke="#2f3d46" stroke-width="6">
+      <circle cx="36" cy="36" r="36" stroke="none"/>
+      <circle cx="36" cy="36" r="33" fill="none"/>
+    </g>
+    <g id="placeholder-5" data-name="placeholder" transform="translate(7197 1752)" fill="#11232c" stroke="#192b35" stroke-width="6">
+      <circle cx="83" cy="83" r="83" stroke="none"/>
+      <circle cx="83" cy="83" r="80" fill="none"/>
+    </g>
+    <g id="placeholder-6" data-name="placeholder" transform="translate(5212 230)" fill="#1b2a32" stroke="#444e56" stroke-width="6">
+      <circle cx="36" cy="36" r="36" stroke="none"/>
+      <circle cx="36" cy="36" r="33" fill="none"/>
+    </g>
+    <g id="placeholder-7" data-name="placeholder" transform="translate(6564 -98)" fill="#2b353c" stroke="#444e56" stroke-width="6">
+      <circle cx="50.5" cy="50.5" r="50.5" stroke="none"/>
+      <circle cx="50.5" cy="50.5" r="47.5" fill="none"/>
+    </g>
+    <g id="placeholder-8" data-name="placeholder" transform="translate(6594 39)" fill="#2b353c" stroke="#444e56" stroke-width="6">
+      <circle cx="21" cy="21" r="21" stroke="none"/>
+      <circle cx="21" cy="21" r="18" fill="none"/>
+    </g>
+    <g id="placeholder-9" data-name="placeholder" transform="translate(6594 -176)" fill="#2b353c" stroke="#444e56" stroke-width="6">
+      <circle cx="21" cy="21" r="21" stroke="none"/>
+      <circle cx="21" cy="21" r="18" fill="none"/>
+    </g>
+    <g id="placeholder-10" data-name="placeholder" transform="translate(5347 -260)" fill="#1e2c34" stroke="#2f3d46" stroke-width="6">
+      <circle cx="36" cy="36" r="36" stroke="none"/>
+      <circle cx="36" cy="36" r="33" fill="none"/>
+    </g>
+    <g id="placeholder-11" data-name="placeholder" transform="translate(5480 -343)" fill="#1e2c34" stroke="#2f3d46" stroke-width="6">
+      <circle cx="36" cy="36" r="36" stroke="none"/>
+      <circle cx="36" cy="36" r="33" fill="none"/>
+    </g>
+    <g id="placeholder-12" data-name="placeholder" transform="translate(6528.5 -68.5) rotate(90)" fill="#2b353c" stroke="#444e56" stroke-width="6">
+      <circle cx="21" cy="21" r="21" stroke="none"/>
+      <circle cx="21" cy="21" r="18" fill="none"/>
+    </g>
+    <g id="placeholder-13" data-name="placeholder" transform="translate(6743.5 -68.5) rotate(90)" fill="#2b353c" stroke="#444e56" stroke-width="6">
+      <circle cx="21" cy="21" r="21" stroke="none"/>
+      <circle cx="21" cy="21" r="18" fill="none"/>
+    </g>
+    <g id="placeholder-14" data-name="placeholder" transform="translate(6538.986 -1.185) rotate(45)" fill="#2b353c" stroke="#444e56" stroke-width="6">
+      <circle cx="21" cy="21" r="21" stroke="none"/>
+      <circle cx="21" cy="21" r="18" fill="none"/>
+    </g>
+    <g id="placeholder-15" data-name="placeholder" transform="translate(6691.014 -153.212) rotate(45)" fill="#2b353c" stroke="#444e56" stroke-width="6">
+      <circle cx="21" cy="21" r="21" stroke="none"/>
+      <circle cx="21" cy="21" r="18" fill="none"/>
+    </g>
+    <g id="placeholder-16" data-name="placeholder" transform="translate(6568.685 -123.514) rotate(135)" fill="#2b353c" stroke="#444e56" stroke-width="6">
+      <circle cx="21" cy="21" r="21" stroke="none"/>
+      <circle cx="21" cy="21" r="18" fill="none"/>
+    </g>
+    <g id="placeholder-17" data-name="placeholder" transform="translate(6720.712 28.514) rotate(135)" fill="#2b353c" stroke="#444e56" stroke-width="6">
+      <circle cx="21" cy="21" r="21" stroke="none"/>
+      <circle cx="21" cy="21" r="18" fill="none"/>
     </g>
   </g>
 </svg>
