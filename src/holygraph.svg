@@ -173,7 +173,7 @@
         </g>
       </g>
       <g id="rank_1">
-        <g id="node_progress" data-name="node_progress" transform="translate(109 257)">
+        <g id="node_progress" data-name="node_completed" transform="translate(109 257)">
           <g id="circle-2" data-name="circle" transform="translate(6917 288)" fill="#46484c" stroke="#6f7278" stroke-width="8">
             <circle cx="84" cy="84" r="84" stroke="none"/>
             <circle cx="84" cy="84" r="80" fill="none"/>
