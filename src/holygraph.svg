@@ -1,26 +1,25 @@
-
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3753" height="3753" viewBox="0 0 3753 3753">
   <defs>
   <style>
-    g[data-name="node_completed"] > g[data-name="circle"] {
+    g[data-name="node_completed"] &gt; g[data-name="circle"], g[data-name="exam_node_completed"] &gt; g[data-name="rectangle"] {
         fill: #00BABC;
         stroke: #00BABC;
     }
 
-    g[data-name="node_completed"] > g[data-name="circle"] path {
+    g[data-name="node_completed"] &gt; g[data-name="circle"] path {
         fill: #00BABC;
     }
 
-    g[data-name="node_failed"] > g[data-name="circle"] {
+    g[data-name="node_failed"] &gt; g[data-name="circle"] {
         fill: #CC6256;
         stroke: #CC6256;
     }
 
-    g[data-name="node_failed"] > g[data-name="circle"] path {
+    g[data-name="node_failed"] &gt; g[data-name="circle"] path {
         fill: #CC6256;
     }
 
-    g[data-name="node_progress"] > g[data-name="circle"] {
+    g[data-name="node_progress"] &gt; g[data-name="circle"] {
         stroke: #00BABC;
     }
 
@@ -29,7 +28,7 @@
     }
 
     g[data-name="node_completed"] g text,
-    g[data-name="node_failed"] g text {
+    g[data-name="node_failed"] g text, g[data-name="exam_node_completed"] &gt; g text {
         fill: #FFFFFF;
     }
   </style>
@@ -203,7 +202,7 @@
         </g>
       </g>
       <g id="rank_2">
-        <g id="node_empty" transform="translate(403 361)">
+        <g id="node_empty" transform="translate(403 361)" data-name="node_completed">
           <g id="circle-5" data-name="circle" transform="translate(6917 288)" fill="#46484c" stroke="#6f7278" stroke-width="8">
             <circle cx="84" cy="84" r="84" stroke="none"/>
             <circle cx="84" cy="84" r="80" fill="none"/>
@@ -221,7 +220,7 @@
             <text id="project_title-20" data-name="project_title" transform="translate(2171 1571)" fill="#6f7278" font-size="48" font-family="Roboto-Bold, Roboto, sans-serif" font-weight="700"><tspan x="0" y="0">pipex</tspan></text>
           </g>
         </g>
-        <g id="node_empty-3" data-name="node_empty" transform="translate(95 -81)">
+        <g id="node_empty-3" data-name="node_completed" transform="translate(95 -81)">
           <g id="circle-7" data-name="circle" transform="translate(6917 288)" fill="#46484c" stroke="#6f7278" stroke-width="8">
             <circle cx="84" cy="84" r="84" stroke="none"/>
             <circle cx="84" cy="84" r="80" fill="none"/>
@@ -248,7 +247,7 @@
             <text id="project_title-23" data-name="project_title" transform="translate(2234 2235)" fill="#6f7278" font-size="48" font-family="Roboto-Bold, Roboto, sans-serif" font-weight="700"><tspan x="0" y="0">fract-ol</tspan></text>
           </g>
         </g>
-        <g id="node_empty-6" data-name="node_empty" transform="translate(-437 -11)">
+        <g id="node_empty-6" data-name="node_completed" transform="translate(-437 -11)">
           <g id="circle-10" data-name="circle" transform="translate(6917 288)" fill="#46484c" stroke="#6f7278" stroke-width="8">
             <circle cx="84" cy="84" r="84" stroke="none"/>
             <circle cx="84" cy="84" r="80" fill="none"/>
@@ -259,7 +258,7 @@
         </g>
       </g>
       <g id="rank_3">
-        <g id="node_empty-7" data-name="node_empty" transform="translate(-815 712)">
+        <g id="node_empty-7" data-name="node_progress" transform="translate(-815 712)">
           <g id="circle-11" data-name="circle" transform="translate(6917 288)" fill="#46484c" stroke="#6f7278" stroke-width="8">
             <circle cx="84" cy="84" r="84" stroke="none"/>
             <circle cx="84" cy="84" r="80" fill="none"/>
@@ -280,8 +279,8 @@
       </g>
     </g>
     <g id="graph_exams">
-      <g id="exam_node_empty">
-        <g id="rectangle" transform="translate(6820 1221)" fill="#44464a" stroke="#6f7278" stroke-width="8">
+      <g id="exam_node_empty" data-name="exam_node_completed">
+        <g id="rectangle" transform="translate(6820 1221)" fill="#44464a" stroke="#6f7278" stroke-width="8" data-name="rectangle">
           <rect width="188" height="98" rx="35" stroke="none"/>
           <rect x="4" y="4" width="180" height="90" rx="31" fill="none"/>
         </g>
@@ -289,7 +288,7 @@
           <text id="project_title-27" data-name="project_title" transform="translate(1823 2459)" fill="#6f7278" font-size="29" font-family="Roboto-Bold, Roboto, sans-serif" font-weight="700"><tspan x="0" y="0">Exam Rank 2</tspan></text>
         </g>
       </g>
-      <g id="exam_node_empty-2" data-name="exam_node_empty" transform="translate(39 -1279)">
+      <g id="exam_node_empty-2" data-name="exam_node_completed" transform="translate(39 -1279)">
         <g id="rectangle-2" data-name="rectangle" transform="translate(6820 1221)" fill="#44464a" stroke="#6f7278" stroke-width="8">
           <rect width="188" height="98" rx="35" stroke="none"/>
           <rect x="4" y="4" width="180" height="90" rx="31" fill="none"/>
